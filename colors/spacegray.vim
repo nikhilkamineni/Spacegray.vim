@@ -29,11 +29,10 @@ let colors_name = 'spacegray'
 " Colorscheme definitions {{{1
 if g:spacegray_low_contrast
   hi Normal        ctermbg=235  ctermfg=250    guibg=#242424  guifg=#B3B8C4  cterm=NONE      gui=NONE
-  hi EndOfBuffer   ctermbg=235  ctermfg=235    guibg=#242424  guifg=#242424  cterm=NONE      gui=NONE
-  hi LineNr        ctermbg=NONE ctermfg=8      guibg=#212121  guifg=#3E4853  cterm=NONE      gui=NONE
+  hi CursorLineNr  ctermbg=0    ctermfg=243    guibg=#303030  guifg=#B3B8C4  cterm=NONE      gui=bold
 else
   hi Normal        ctermbg=234  ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
-  hi EndOfBuffer   ctermbg=235  ctermfg=235    guibg=#111314  guifg=#242424  cterm=NONE      gui=NONE
+  hi CursorLineNr  ctermbg=0    ctermfg=243    guibg=#303030  guifg=#B3B8C4  cterm=NONE      gui=NONE
 endif
 
 if g:spacegray_use_italics
@@ -42,6 +41,7 @@ else
   hi Comment       ctermbg=NONE ctermfg=59     guibg=NONE     guifg=#76818A  cterm=NONE      gui=NONE
 endif
 
+hi EndOfBuffer     ctermbg=NONE ctermfg=235    guibg=NONE     guifg=#242424  cterm=NONE      gui=NONE
 hi Conceal         ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#B3B8C4  cterm=NONE      gui=NONE
 hi NonText         ctermbg=NONE ctermfg=8      guibg=NONE     guifg=#3E4853  cterm=NONE      gui=NONE
 hi Title           ctermbg=NONE ctermfg=231    guibg=NONE     guifg=#FFFFFF  cterm=NONE      gui=NONE
@@ -77,8 +77,7 @@ hi DiffText        ctermbg=60   ctermfg=251    guibg=#5F5F87   guifg=#D0D0D0 cte
 hi helpLeadBlank   ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=NONE      gui=NONE
 hi helpNormal      ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=NONE      gui=NONE
 
-hi LineNr          ctermbg=NONE ctermfg=8      guibg=#111314  guifg=#3E4853  cterm=NONE      gui=NONE
-hi CursorLineNr    ctermbg=NONE ctermfg=243    guibg=NONE     guifg=#808080  cterm=NONE      gui=NONE
+hi LineNr          ctermbg=59   ctermfg=8      guibg=NONE     guifg=#6C6C6C  cterm=NONE      gui=NONE
 
 hi Pmenu           ctermbg=233  ctermfg=137    guibg=#171717  guifg=#E8A973  cterm=none      gui=NONE
 hi PmenuSel        ctermbg=234  ctermfg=196    guibg=#252525  guifg=#FF2A1F  cterm=bold      gui=bold
