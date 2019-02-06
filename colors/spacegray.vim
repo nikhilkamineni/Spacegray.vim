@@ -61,11 +61,7 @@ hi CursorLine      ctermbg=0    ctermfg=NONE   guibg=#303030  guifg=NONE     cte
 hi ColorColumn     ctermbg=235  ctermfg=NONE   guibg=#303537  guifg=NONE     cterm=NONE      gui=NONE
 hi SignColumn      ctermbg=233  ctermfg=250    guibg=#141617  guifg=#B3B8C4  cterm=NONE      gui=NONE
 
-<<<<<<< HEAD
-hi Todo            ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=reverse   gui=reverse
-=======
 hi Todo            ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=bold      gui=bold
->>>>>>> Fixes for line column styling
 hi Error           ctermbg=52   ctermfg=12     guibg=NONE     guifg=#AF5F5F  cterm=underline gui=reverse
 hi ErrorMsg        ctermbg=NONE ctermfg=9      guibg=NONE     guifg=#C5735E  cterm=NONE      gui=NONE
 hi Question        ctermbg=NONE ctermfg=214    guibg=NONE     guifg=#FFAF00  cterm=NONE      gui=NONE
@@ -81,12 +77,7 @@ hi DiffText        ctermbg=60   ctermfg=251    guibg=#5F5F87   guifg=#D0D0D0 cte
 hi helpLeadBlank   ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=NONE      gui=NONE
 hi helpNormal      ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=NONE      gui=NONE
 
-<<<<<<< HEAD
-hi LineNr          ctermbg=NONE ctermfg=8      guibg=#111314  guifg=#3E4853  cterm=NONE      gui=NONE
-hi CursorLineNr    ctermbg=NONE ctermfg=243    guibg=NONE     guifg=#808080  cterm=NONE      gui=NONE
-=======
 hi LineNr          ctermbg=59   ctermfg=8      guibg=NONE     guifg=#6C6C6C  cterm=NONE      gui=NONE
->>>>>>> Fixes for line column styling
 
 hi Pmenu           ctermbg=233  ctermfg=137    guibg=#171717  guifg=#E8A973  cterm=none      gui=NONE
 hi PmenuSel        ctermbg=234  ctermfg=196    guibg=#252525  guifg=#FF2A1F  cterm=bold      gui=bold
@@ -119,12 +110,8 @@ hi VisualNOS       ctermbg=8    ctermfg=NONE   guibg=NONE     guifg=NONE     cte
 
 hi FoldColumn      ctermbg=NONE ctermfg=242    guibg=#1C1C1C  guifg=#6C6C6C  cterm=NONE      gui=NONE
 hi Folded          ctermbg=NONE ctermfg=242    guibg=#1C1C1C  guifg=#6C6C6C  cterm=NONE      gui=NONE
-<<<<<<< HEAD
 
 hi VertSplit       ctermbg=232  ctermfg=232    guibg=#1C1F20  guifg=#1C1F20  cterm=NONE      gui=NONE
-=======
-hi VertSplit       ctermbg=238  ctermfg=238    guibg=#444444  guifg=#444444  cterm=NONE      gui=NONE
->>>>>>> Fixes for line column styling
 
 hi IncSearch       ctermbg=9    ctermfg=0      guibg=#AF5F5F  guifg=#141617  cterm=NONE      gui=NONE
 if g:spacegray_underline_search
