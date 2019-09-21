@@ -25,17 +25,14 @@ You can tweak Spacegray by enabling the following disabled options:
 
 ## Screenshots
 
-Here are a few screenshots of Spacegray:
-(Font used: Fira Mono 12pt)
+### Syntax Groups
+![Syntax Groups](screenshots/hl_groups.png)
 
-### Vim (GVim)
-![Spacegray in Vim](screenshots/vim_gui.png)
+### Spacegray Low Contrast
+![Spacegray Low Contrast](screenshots/low_contrast.png)
 
-### Ruby (Terminal Vim)
-![Spacegray in Ruby](screenshots/ruby_cterm.png)
-
-### Haskell (Spacegray Low Contrast GVim)
-![Spacegray Low Contrast](screenshots/spacegray_low_contrast_gui.png)
+### Spacegray Dark
+![Spacegray Dark](screenshots/dark.png)
 
 ## Installation
 
